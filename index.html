@@ -13,16 +13,32 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "AI-ассистент для Telegram-комьюнити",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Telegram",
-      "description": "Умная база знаний и нетворкинг для Telegram-сообществ. Сохраняйте опыт участников и автоматизируйте нетворкинг.",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "RUB"
-      }
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "AI-ассистент для Telegram-комьюнити",
+          "url": "https://ai-community-bot.web.app",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Telegram",
+          "description": "Умная база знаний и нетворкинг для Telegram-сообществ. Бот сохраняет опыт участников, собирает профили и автоматически отвечает на вопросы на базе переписки.",
+          "featureList": [
+            "Сбор профилей по intro-постам",
+            "Умный поиск по истории чата",
+            "Изолированная AI-модель на серверах клиента",
+            "Автоматическое обновление базы знаний"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "RUB"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "url": "https://ai-community-bot.web.app",
+          "name": "AI/COMMUNITY - Ассистент для Telegram"
+        }
+      ]
     }
     </script>
 </head>
