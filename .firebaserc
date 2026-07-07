@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "habbit-app-2026"
+  },
+  "targets": {
+    "habbit-app-2026": {
+      "hosting": {
+        "ai-community-bot": [
+          "ai-community-bot"
+        ]
+      }
+    }
+  }
+}

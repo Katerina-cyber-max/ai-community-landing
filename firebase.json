@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "ai-community-bot",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
